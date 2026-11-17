@@ -1,4 +1,4 @@
-# GMiMC Collision Experiments
+# Orthogonal Truncated Differentials: GMiMC Collision Experiments
 This repository contains the small scale collision experiments of [GMiMC_erf](https://doi.org/10.1007/978-3-030-29962-0_8) for the paper `Orthogonal Truncated Differentials`.
 
 ## Requirements
