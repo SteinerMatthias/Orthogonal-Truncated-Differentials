@@ -59,6 +59,12 @@ julia cipher_distinguisher_experiment.jl $prime $n $max_blocks $max_d $seed
 ```
 where `$prime` is the underlying prime field $\text{GF} (p)$, `$n` the state size, `$max_blocks` specifies the maximal number of rounds $b_{\max} \cdot n$, `$max_d` specifies the interval exponent $[2, d_{\max}]$, and `$seed` the optional seed with default value $13$.
 
+For experiments over a binary field run
+```shell
+julia binary_cipher_distinguisher_experiment.jl $m $n $max_blocks $k $max_d $seed
+```
+where `$m` specifies the size of the finite field $\text{GF} (2^m)$.
+
 To reproduce the data for the plots in the paper run the following
 ```sh
 julia cipher_distinguisher_experiment.jl 59 7 7 8
