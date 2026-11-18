@@ -53,7 +53,7 @@ julia binary_collision_experiment.jl 7 10 10 3 8
 ```
 
 ## Cipher Distinguisher Experiment
-To run the cipher distinguisher experiment for the truncated differential $(0, \dots, 0, x_1, \dots, x_k) \to (0, \dots, 0, y_1, \dots, y_k)$ of GMiMC_erf run the following command within the repository
+To run the cipher distinguisher experiment for the truncated differential $(0, \dots, 0, x_1, x_2) \to (0, \dots, 0, y_1, y_2)$ of GMiMC_erf run the following command within the repository
 ```sh
 julia cipher_distinguisher_experiment.jl $prime $n $max_blocks $max_d $seed
 ```
